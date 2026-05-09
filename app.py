@@ -14,7 +14,7 @@ st.title("就業規則・附属規程 構造チェックツール")
 st.caption("目的: 法違反の断定ではなく、規程間の構造的不整合を検出し、Word報告書を作成します。")
 
 uploaded = st.file_uploader(
-    "就業規則・附属規程をアップロードしてください（旅費規程は通常対象外）",
+    "就業規則・附属規程をアップロードしてください",
     type=["docx", "pdf", "txt", "md"],
     accept_multiple_files=True
 )
