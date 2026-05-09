@@ -1,0 +1,16 @@
+{
+  "purpose": "法違反の断定ではなく、就業規則と附属規程の構造的不整合を検出する",
+  "excluded_default_rules": ["旅費規程"],
+  "check_categories": [
+    {"id":"definitions", "name":"用語・定義の統一", "severity":"high"},
+    {"id":"scope", "name":"適用範囲の整合", "severity":"high"},
+    {"id":"delegation", "name":"委任条項と附属規程の接続", "severity":"high"},
+    {"id":"references", "name":"参照条文・規程名の不存在", "severity":"high"},
+    {"id":"wages", "name":"賃金規程との接続", "severity":"high"},
+    {"id":"leave", "name":"休職・復職・休暇制度の整合", "severity":"high"},
+    {"id":"discipline", "name":"服務規律と懲戒事由の接続", "severity":"medium"},
+    {"id":"retirement", "name":"退職・退職金・企業型DCとの接続", "severity":"medium"},
+    {"id":"operations", "name":"運用主体・承認者・手続の明確性", "severity":"medium"},
+    {"id":"structure", "name":"条番号・章立て・重複条文", "severity":"medium"}
+  ]
+}
